@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+
+  redis:
+    image: redis:6.0-alpine
+    container_name: redis-broker
+    ports:
+     - '6379:6379'
